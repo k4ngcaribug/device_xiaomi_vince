@@ -31,6 +31,7 @@ GAPPS_CORE := true
 TARGET_INCLUDE_CHROME := true
 TARGET_INCLUDE_GBOARD := true
 TARGER_INCLUDE_GMAIL := true
+TARGET_USE_ECHO := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
