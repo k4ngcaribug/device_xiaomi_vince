@@ -10,9 +10,6 @@
 /dev/block/platform/soc/7824900.sdhci/by-name/sbl1             u:object_r:custom_ab_block_device:s0
 /dev/block/platform/soc/7824900.sdhci/by-name/tz             u:object_r:custom_ab_block_device:s0
 
-# Data files
-/data/vendor/dolby(/.*)?                        u:object_r:vendor_data_file:s0
-
 # Fpc Fingerprint
 /data/fpc(/.*)?		u:object_r:fingerprintd_data_file:s0
 
@@ -27,7 +24,6 @@
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_msm8953      u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi              u:object_r:hal_light_default_exec:s0
-/vendor/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service                                               u:object_r:hal_dms_default_exec:s0
 
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                         u:object_r:vendor_idc_file:s0
