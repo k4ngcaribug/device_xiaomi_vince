@@ -926,4 +926,3 @@ vendor/lib/libwvaidl.so
 
 # Wi-Fi
 vendor/bin/wcnss_service
-vendor/bin/hw/wpa_supplicant
